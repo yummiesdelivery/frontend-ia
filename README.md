@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Yummies App
 
 Una aplicación de entrega de alimentos desarrollada en React Native y Expo. La aplicación permite a los usuarios explorar menús, realizar pedidos y gestionar entregas de comida directamente desde su dispositivo móvil.
@@ -116,3 +117,6 @@ Las principales dependencias utilizadas en el proyecto incluyen:
 
 # Licencia
 Este proyecto está bajo la licencia MIT.
+=======
+# frontend-ia
+>>>>>>> 3c1bc7ad729292bffce4dfef908c019015b001c8
