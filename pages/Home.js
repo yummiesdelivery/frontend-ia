@@ -103,19 +103,19 @@ export default function Home() {
       {/* Bottom Navigation */}
       <View style={styles.bottomNav}>
         <TouchableOpacity style={styles.navItem}>
-          <Ionicons name="chatbubble-outline" size={24} color="#333" />
+          <FontAwesome name="wechat" size={24} color="#333" />
           <Text style={styles.navText}>Live Chat</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.navItem}>
-          <Ionicons name="person-outline" size={24} color="#333" />
+          <MaterialIcons name="person" size={24} color="#333" />
           <Text style={styles.navText}>Profile</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.navItem}>
-          <Entypo name="home" size={24} color="#FF5722" />
-          <Text style={[styles.navText, styles.activeNavText]}>Home</Text>
+          <MaterialIcons name="home" size={24} color="#FF5722" />
+          <Text style={[styles.navText]}>Home</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.navItem}>
-          <Ionicons name="menu-outline" size={24} color="#333" />
+          <MaterialIcons name="restaurant-menu" size={24} color="#333" />
           <Text style={styles.navText}>Menu</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.navItem}>
@@ -190,5 +190,8 @@ const styles = StyleSheet.create({
   itemName: { fontSize: 16, color: '#333' },
   itemPrice: { fontWeight: 'bold', fontSize: 16 },
   heartIcon: { position: 'absolute', top: 7, right: 7 },
-  bottomNav: { flexDirection: 'row', justifyContent: 'space-around', paddingVertical: 16 }
+  navItem: { alignItems: 'center', justifyContent: 'center' },
+  bottomNav: { flexDirection: 'row', justifyContent: 'space-around', paddingVertical: 16, },
+  navText: { color: '#333', fontSize: 12, marginTop: 4 },
+  activeNavText: { color: '#FF5722' },
 });

@@ -5,7 +5,7 @@ import { View, Text, TouchableOpacity, StyleSheet, ImageBackground, SafeAreaView
 export default function GetStarted({ navigation }) {
   return (
     <ImageBackground 
-      source={{ uri: 'https://your-image-url.com' }} // Puedes reemplazar con la URL de tu imagen de fondo
+      source={{ uri: 'https://neat-food.com/cdn/shop/files/neat_emmapharaoh_19march24_12.jpg?v=1712845654&width=4498' }} // Puedes reemplazar con la URL de tu imagen de fondo
       style={styles.background}
     >
       <View style={styles.container}>
@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
     width: '100%',       // Ocupa todo el ancho del dispositivo
     height: '100%',      // Ocupa toda la altura del dispositivo
     flex: 1,
-    backgroundColor: '#2D2D2D', // Fondo oscuro
+    backgroundColor: 'rgba(44, 42, 43, 0.9)', // Fondo oscuro
     alignItems: 'center',
     justifyContent: 'center',
   },
